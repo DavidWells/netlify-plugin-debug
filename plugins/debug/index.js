@@ -33,7 +33,7 @@ function pluginDebug(config) {
     saveCache: () => {
       console.log("Saving cached assets 🎨");
     },
-    finally: () => {
+    onEnd: () => {
       console.log("Site build finished, site deployed! 🚀");
     }
   };
