@@ -1,5 +1,6 @@
 function pluginDebug(config) {
   return {
+    name: 'my-cool-plugin',
     // Hook into lifecycles
     init: () => {
       console.log("Build Starting 🔥");
